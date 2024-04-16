@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with Typescrip & Tailwind CSS
+This is a [Next.js](https://nextjs.org/) project bootstrapped with Typescript & Tailwind CSS
 
 ## Project Details :
 This is a Full stack application developed using Next Js, this application leverages NextJS's SSR(Server Side Rendering).
