@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with Typescrip & Tailwind CSS
+
+## Project Details :
+This is a Full stack application developed using Next Js, this application leverages NextJS's SSR(Server Side Rendering).
 
 ## Getting Started
 
