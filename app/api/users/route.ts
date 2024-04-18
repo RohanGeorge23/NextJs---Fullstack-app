@@ -14,16 +14,21 @@ export function GET(){
 
 export async function POST(req : NextRequest){
 
-    const body = req.json()
+    const body = await req.json()
     console.log(body)
-    // client.user.create({
-    //     "username":
-    // })
+    let res =await client.user.create({
+        data:{
+            "username": body.username,
+            "password":body.password
+        }
+    })
+
+    console.log(res)
 
     console.log("------------POST request arrived---------")
     return Response.json({
-        email:"rohangeorge77@gmail.com",
-        name:"Rohan R George",
+        email:body.username,
+        name:body.username,
         status:200,
         msg:"Logged in Sucessfully!!"
     })
