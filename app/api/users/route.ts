@@ -1,5 +1,7 @@
 import { NextRequest } from "next/server"
+import { PrismaClient } from "@prisma/client"
 
+const client = new PrismaClient()
 export function GET(){
     console.log("------------GET request arrived---------")
 
@@ -14,6 +16,9 @@ export async function POST(req : NextRequest){
 
     const body = req.json()
     console.log(body)
+    // client.user.create({
+    //     "username":
+    // })
 
     console.log("------------POST request arrived---------")
     return Response.json({
